@@ -12,3 +12,19 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 Testing R markdown in gitHub 
+
+```{r}
+#packages
+library(psych)
+library(fpp2)
+library(dplyr)
+```
+
+```{r}
+ap <- AirPassengers
+```
+
+```{r}
+autoplot(ap) +
+  theme_classic()
+```
