@@ -1,0 +1,12 @@
+---
+title: "A test Markdown"
+author: "Amy_Neal"
+date: "2026-04-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Testing R markdown in gitHub 
